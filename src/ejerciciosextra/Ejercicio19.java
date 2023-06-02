@@ -25,7 +25,7 @@ public class Ejercicio19 {
         System.out.println("El vector 2 es:");
         mostrarVector(vector2);
 
-         iguales = comprarVectores(vector1,vector2);
+         iguales = compararVectores(vector1,vector2);
 
          if (iguales) {
              System.out.println("Los vectores son iguales");
@@ -34,7 +34,7 @@ public class Ejercicio19 {
          }
     }
 
-    private static boolean comprarVectores(int[] _vector1, int[] _vector2) {
+    private static boolean compararVectores(int[] _vector1, int[] _vector2) {
 
         int contador = 0;
 
